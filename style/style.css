@@ -1,0 +1,40 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.radar-details {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.radar-detail {
+  margin-bottom: 0px;
+}
+
+.radar-detail-spacer {
+  margin-right: 20px;
+}
+
+.radar-animation {
+  width: 150px;
+}
+
+.radar-image {
+  height: 150px;
+  border-radius: 5%;
+}
+
+.radar-image-status {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.image-no-image {
+  height: 150px;
+  width: 150px;
+}
+
+.radar-timestamp {
+  font-size: 12px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}

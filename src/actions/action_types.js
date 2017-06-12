@@ -1,0 +1,2 @@
+
+export const FETCH_RADAR_LIST = 'FETCH_RADAR_LIST';

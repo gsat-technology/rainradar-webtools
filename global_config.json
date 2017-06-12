@@ -1,0 +1,118 @@
+{
+"bom_cdn_url": "http://ws.cdn.bom.gov.au",
+"radars": [
+  {
+    "id": "IDR713",
+    "resolution_mins": 6,
+    "add_offset_mins": 0,
+    "cdn_wait_mins": 3,
+    "max_attempts": 5,
+    "name": "Sydney (Terrey Hills)",
+    "distance": 128,
+    "state": "NSW"
+  },
+  {
+    "id": "IDR762",
+    "resolution_mins": 6,
+    "add_offset_mins": 0,
+    "cdn_wait_mins": 3,
+    "max_attempts": 5,
+    "name": "Hobart (Mt Koonya)",
+    "distance": 256,
+    "state": "TAS"
+  },
+  {
+    "id": "IDR763",
+    "resolution_mins": 6,
+    "add_offset_mins": 0,
+    "cdn_wait_mins": 3,
+    "max_attempts": 5,
+    "name": "Hobart (Mt Koonya)",
+    "distance": 128,
+    "state": "TAS"
+  },
+  {
+    "id": "IDR661",
+    "resolution_mins": 6,
+    "add_offset_mins": 5,
+    "cdn_wait_mins": 3,
+    "max_attempts": 5,
+    "name": "composite Brisbane (Mt Stapylton)",
+    "distance": 512,
+    "state": "QLD"
+  },
+  {
+    "id": "IDR711",
+    "resolution_mins": 6,
+    "add_offset_mins": 5,
+    "cdn_wait_mins": 3,
+    "max_attempts": 5,
+    "name": "composite Sydney (Terrey Hills)",
+    "distance": 512,
+    "state": "NSW"
+  },
+  {
+    "id": "IDR021",
+    "resolution_mins": 6,
+    "add_offset_mins": 5,
+    "cdn_wait_mins": 3,
+    "max_attempts": 5,
+    "name": "composite Melbourne",
+    "distance": 512,
+    "state": "VIC"
+  },
+  {
+    "id": "IDR631",
+    "resolution_mins": 10,
+    "add_offset_mins": 7,
+    "cdn_wait_mins": 3,
+    "max_attempts": 5,
+    "name": "composite Darwin (Berrimah)",
+    "distance": 512,
+    "state": "NT"
+  },
+  {
+    "id": "IDR703",
+    "resolution_mins": 6,
+    "add_offset_mins": 0,
+    "cdn_wait_mins": 3,
+    "max_attempts": 5,
+    "name": "Perth (Serpentine)",
+    "distance": 128,
+    "state": "WA"
+  }
+],
+"locations": {
+  "data": {
+    "bucket": "raindata.gsat.technology",
+    "prefix": "data/"
+  },
+  "state": {
+    "bucket": "raindata.gsat.technology",
+    "prefix": "state/"
+  },
+  "rain": {
+    "bucket": "raindata.gsat.technology",
+    "prefix": "rain/"
+  },
+  "layers": {
+    "bucket": "raindata.gsat.technology",
+    "prefix": "layers/"
+  },
+  "merged": {
+    "bucket": "raindata.gsat.technology",
+    "prefix": "merged/"
+  },
+  "animated": {
+    "bucket": "raindata.gsat.technology",
+    "prefix": "animated/"
+  }
+},
+"layers": [
+  "background", "topography", "locations"
+],
+"stale_mins": 30,
+"animate_hours_max": 24,
+"history_allowed_hours_max": 48,
+"animated_gif_filename": "rainradar.gif"
+}
